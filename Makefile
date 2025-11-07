@@ -33,10 +33,10 @@ clean:
 # Ayuda
 help:
 	@echo "Opciones disponibles:"
-	@echo "  all      - Compila todos los ejercicios (por defecto)"
+	@echo "  all      - Compila todos los ejercicios"
 	@echo "  clean    - Elimina los ejecutables y archivos objeto"
 	@echo "  install  - Copia los ejecutables al directorio bin/"
-	@echo "  help     - Muestra esta ayuda"
+	@echo "  help     - Muestra ayuda"
 
 # Variables especiales
 .DEFAULT_GOAL = all
